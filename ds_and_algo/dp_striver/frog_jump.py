@@ -17,6 +17,6 @@ def frog_jump_cost(i,dp,lst):
 
 lst = [30,10,60,10,60,50]
 n = len(lst)
-dp = [None]*(n+1)
+dp = [None]*(n)
 
 print(frog_jump_cost(n-1,dp,lst))
